@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "MCP server: Elisa Elamus TV guide (local, instant search) + Android/Google TV control over ADB"
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
 dependencies = [
   "mcp>=2.3,<3",
   "uvicorn>=0.30",

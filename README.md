@@ -86,3 +86,7 @@ TV: `tv_status`, `tv_keys`, `tv_type_text`, `tv_power`, `tv_volume`, `tv_launch_
 - Sony TVs send number keys injected by software (`input keyevent`) to Sony's own tuner app. The
   server therefore types digits through a temporary virtual USB keyboard (Android's `hid` tool), which
   the TV treats like a real remote, so `tv_keys` digits and `elisa_tune_channel` behave like the remote.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
