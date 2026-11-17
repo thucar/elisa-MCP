@@ -1,0 +1,7 @@
+{
+  "Pisike Elamus": {
+    "source": "https://www.elisa.ee/et/files/eraklient/elisa-elamus/kanalid.pdf (seisuga 17.11.2026)",
+    "channel_numbers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+                        20, 21, 22, 25, 27, 54, 60, 63, 66, 100, 120, 200, 201, 202, 205, 207, 300]
+  }
+}

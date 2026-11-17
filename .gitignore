@@ -1,0 +1,4 @@
+elisa_tv_mcp.egg-info/
+build/
+__pycache__/
+*.pyc

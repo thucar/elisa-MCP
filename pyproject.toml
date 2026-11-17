@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elisa-tv-mcp"
+version = "0.1.0"
+description = "MCP server: Elisa Elamus TV guide (local, instant search) + Android/Google TV control over ADB"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mcp>=2.3,<3",
+  "uvicorn>=0.30",
+  "Pillow>=10",
+  "qrcode>=7.4",
+]
+
+[project.scripts]
+elisa-tv = "elisa_tv.cli:main"
+
+[tool.setuptools]
+packages = ["elisa_tv"]
+
+[tool.setuptools.package-data]
+elisa_tv = ["packages.json"]
